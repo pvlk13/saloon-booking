@@ -1,6 +1,6 @@
-package com.zosh.payload.dto;
+package com.vijaya.payload.dto;
 
-import com.zosh.domain.UserRole;
+import com.vijaya.domain.UserRole;
 import lombok.Data;
 
 @Data

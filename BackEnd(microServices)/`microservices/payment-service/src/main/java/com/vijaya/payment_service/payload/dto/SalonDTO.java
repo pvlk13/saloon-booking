@@ -1,10 +1,9 @@
 package com.vijaya.payment_service.payload.dto;
 
-import com.vijaya.booking_service.dto.UserDTO;
+
 import org.springframework.stereotype.Component;
 
 import java.time.LocalTime;
-import java.time.chrono.ChronoLocalDateTime;
 import java.util.List;
 
 @Component
@@ -103,7 +102,7 @@ public class SalonDTO {
         this.images = images;
     }
 
-    public ChronoLocalDateTime<?> getOpeningTime() {
+    public LocalTime getOpeningTime() {
         return openingTime;
     }
 
@@ -111,7 +110,7 @@ public class SalonDTO {
         this.openingTime = openingTime;
     }
 
-    public ChronoLocalDateTime<?> getClosingTime() {
+    public LocalTime getClosingTime() {
         return closingTime;
     }
 

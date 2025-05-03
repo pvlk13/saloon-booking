@@ -1,4 +1,4 @@
-package com.zosh.domain;
+package com.vijaya.domain;
 
 public enum UserRole {
     ROLE_CUSTOMER,
